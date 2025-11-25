@@ -1,0 +1,14 @@
+{
+  "yet-another-obsidian-synchronizer:sync": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "yet-another-obsidian-synchronizer:show-unmerged": [
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
+  ]
+}
