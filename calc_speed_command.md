@@ -1,1 +1,1 @@
-Another function in [[Pure Pursuit]]
+Another function in [[Pure Pursuit, pp]]
