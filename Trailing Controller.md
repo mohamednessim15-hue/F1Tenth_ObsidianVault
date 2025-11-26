@@ -1,4 +1,4 @@
-The trailing controller can be found in PP.py, which is the python file responsible for pure pursuit for the car.
+	The trailing controller can be found in PP.py, which is the python file responsible for pure pursuit for the car.
 
 Trailing controller itself has the following description:
 ```
