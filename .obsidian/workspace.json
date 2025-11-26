@@ -63,15 +63,14 @@
             "id": "6734b68d989ad5f6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Trailing Controller.md",
-                "bFile": "Trailing Controller.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Trailing Controller.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Trailing Controller"
+              "icon": "lucide-file",
+              "title": "Trailing Controller"
             }
           }
         ],
@@ -220,7 +219,7 @@
             }
           },
           {
-            "id": "42706e81464838c7",
+            "id": "12b3cd28e5f85226",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -248,12 +247,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6734b68d989ad5f6",
+  "active": "12b3cd28e5f85226",
   "lastOpenFiles": [
     "Untitled.base",
-    "Trailing Controller.md",
-    "conflict-files-obsidian-git.md",
     "Syncing.md",
+    "Trailing Controller.md",
     "calc_speed_command.md",
     "Welcome.md",
     "FTG.md",
