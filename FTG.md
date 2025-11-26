@@ -1,1 +1,1 @@
-FTG Stands for Follow The Gap, which will be one of our upcoming tasks to cover
+FTG Stands for Follow The Gap, which will be one of our upcoming tasks to cover.
