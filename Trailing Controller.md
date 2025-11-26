@@ -47,4 +47,4 @@ The function itself does a couple of stuff, it
 2. stores the value of the calculation in an intermediate variable 
 3. compares the 2 values and names it error
 4. compares the velocity between the car and the opponent
-5. idfk man MAN lol
+5. TBC
