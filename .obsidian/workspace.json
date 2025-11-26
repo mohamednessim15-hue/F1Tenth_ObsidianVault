@@ -63,13 +63,15 @@
             "id": "6734b68d989ad5f6",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "split-diff-view",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "aFile": "Trailing Controller.md",
+                "bFile": "Trailing Controller.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "diff",
+              "title": "Diff: Trailing Controller"
             }
           }
         ],
@@ -248,8 +250,9 @@
   },
   "active": "6734b68d989ad5f6",
   "lastOpenFiles": [
-    "Trailing Controller.md",
     "Untitled.base",
+    "Trailing Controller.md",
+    "conflict-files-obsidian-git.md",
     "Syncing.md",
     "calc_speed_command.md",
     "Welcome.md",
