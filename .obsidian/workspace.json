@@ -63,18 +63,18 @@
             "id": "6734b68d989ad5f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "calc_speed_command.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "calc_speed_command"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           },
           {
-            "id": "e1560b96181402a1",
+            "id": "c5e9cb6776634daa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -233,7 +233,7 @@
             }
           },
           {
-            "id": "42706e81464838c7",
+            "id": "12b3cd28e5f85226",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -261,11 +261,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1560b96181402a1",
+  "active": "c5e9cb6776634daa",
   "lastOpenFiles": [
     "Pure Pursuit (pp.py).md",
-    "FTG.md",
     "calc_speed_command.md",
+    "FTG.md",
     "Trailing Controller.md",
     "Welcome.md",
     "conflict-files-obsidian-git.md",
