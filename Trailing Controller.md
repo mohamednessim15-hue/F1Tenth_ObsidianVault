@@ -22,7 +22,7 @@ The module gets 3 inputs and returns only 1 output.
 ## Inputs:
 * speed_command
 
-	speed_command is set to 0 in line **76** in the initialization of the PP file and is later given a value based on the [[calc_speed_command]] Function which calculates it based on the car's velocity vector and the lateral normalized error.
+	speed_command is set to 0 in the initialization of the PP file and is later given a value based on the [[calc_speed_command]] Function which calculates it based on the car's velocity vector and the lateral normalized error.
 
 * self.opponent
 
@@ -48,7 +48,9 @@ The function itself does a couple of stuff, it
 3. compares the values of the actual gap calculated in the steps above, to the value that it SHOULD be, and that's the gap error.
 4. compares the velocity between the car and the opponent and that's the velocity error
 5. the integral part is then estimated by this line:
+
 `self.i_gap = np.clip(self.i_gap + self.gap_error/self.loop_rate, -10, 10)`
+
 This line clips the cumulative integral error (which is why we're adding the calculated value to the old i error) to -10 and 10. The calculated line itself is based on the gap error and the loop rate, dividing the gap error by the loop rate essentially equals
 $$\frac{Gap Error}{loopRate} =  \sum e * \Delta t $$
 Where, the gap error is the sum of error, and 1/loopRate equals the Delta Time.
