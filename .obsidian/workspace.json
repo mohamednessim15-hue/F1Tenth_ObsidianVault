@@ -46,6 +46,21 @@
             }
           },
           {
+            "id": "d09eebb35de62a0b",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Trailing Controller.md",
+                "bFile": "Trailing Controller.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Trailing Controller"
+            }
+          },
+          {
             "id": "e1560b96181402a1",
             "type": "leaf",
             "state": {
@@ -60,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,15 +248,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6734b68d989ad5f6",
+  "active": "d09eebb35de62a0b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Trailing Controller.md",
+    "test.md",
     "Controller Manager.md",
     "calc_speed_command.md",
     "FTG.md",
     "Pure Pursuit (pp.py).md",
-    "Trailing Controller.md",
     "Welcome.md",
-    "conflict-files-obsidian-git.md",
     "Untitled.base",
     "Syncing.md",
     "create a link.md"
