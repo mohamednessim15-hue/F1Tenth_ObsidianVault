@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Controller Manager.md",
-                "mode": "preview",
-                "source": true
+                "file": "test.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Controller Manager"
-            }
-          },
-          {
-            "id": "c5e9cb6776634daa",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "title": "test"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,13 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12b3cd28e5f85226",
+  "active": "71e7971af078d275",
   "lastOpenFiles": [
+    "Controller Manager.md",
     "test.md",
     "conflict-files-obsidian-git.md",
     "FTG.md",
     "Trailing Controller.md",
-    "Controller Manager.md",
     "calc_speed_command.md",
     "Pure Pursuit (pp.py).md",
     "Welcome.md",
