@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "71e7971af078d275",
+            "id": "6843ad95c741fe12",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
+                "aFile": "test.md",
+                "bFile": "test.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "test"
+              "icon": "diff",
+              "title": "Diff: test"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 300
   },
   "right": {
     "id": "92fdf96c234cdef2",
@@ -166,7 +166,7 @@
             }
           },
           {
-            "id": "12b3cd28e5f85226",
+            "id": "42706e81464838c7",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -194,15 +194,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71e7971af078d275",
+  "active": "6843ad95c741fe12",
   "lastOpenFiles": [
-    "Controller Manager.md",
-    "test.md",
-    "conflict-files-obsidian-git.md",
     "FTG.md",
-    "Trailing Controller.md",
+    "Controller Manager.md",
     "calc_speed_command.md",
     "Pure Pursuit (pp.py).md",
+    "Trailing Controller.md",
+    "test.md",
+    "conflict-files-obsidian-git.md",
     "Welcome.md",
     "Untitled.base",
     "Syncing.md",
