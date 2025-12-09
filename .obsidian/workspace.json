@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trailing Controller.md",
+                "file": "FTG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trailing Controller"
+              "title": "FTG"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "92fdf96c234cdef2",
@@ -196,13 +197,13 @@
   },
   "active": "6843ad95c741fe12",
   "lastOpenFiles": [
+    "Trailing Controller.md",
+    "Controller Manager.md",
+    "Pure Pursuit (pp.py).md",
     "calc_speed_command.md",
     "conflict-files-obsidian-git.md",
-    "Trailing Controller.md",
     "test.md",
-    "Controller Manager.md",
     "FTG.md",
-    "Pure Pursuit (pp.py).md",
     "Welcome.md",
     "Untitled.base",
     "Syncing.md",
