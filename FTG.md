@@ -82,7 +82,9 @@ self.range_offset = rospy.get_param('/state_machine/range_offset')
 	get the offset from state_machine if it doesn't found the server it will return zero 
 
 self.track_width = rospy.get_param('/state_machine/track_width', 2.0)
-	   get the track_width from state_machine if it doesn't found the server it will return 2 (the default value you choose) it can help us in diagnose errors if function always return 2 we can indicate that track width is not in our server 
+	This retrieves **track_width** from the `/state_machine` parameter server.  
+	If the parameter is not found, it returns **2.0**, which is the default value you choose.  
+	This can help us diagnose errors — if the function always returns **2.0**, we can conclude that **track_width** is not set on the parameter server.
 ##
 ## `_preprocess_lidar`
 
