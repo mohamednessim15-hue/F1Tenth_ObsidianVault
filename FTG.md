@@ -1,7 +1,89 @@
 FTG Stands for Follow The Gap which works by receiving the LiDAR array for distances, and turning it into a steering angle and speed
 
 The file has initialization variables for the different speed option for the code to choose from depending on the situation.
+##  Initialization     
+    DEBUG = rospy.get_param('/state_machine/debug')
 
+    #Lidar processing params
+
+    PREPROCESS_CONV_SIZE = 3
+
+    SAFETY_RADIUS = rospy.get_param('/state_machine/safety_radius')
+
+    MAX_LIDAR_DIST = rospy.get_param('/state_machine/max_lidar_dist')
+
+    # Speed params
+
+    MAX_SPEED = rospy.get_param('/state_machine/max_speed', 1.5)
+
+    scale = 0.6  # .575 is  max
+
+    CORNERS_SPEED = 0.3 * MAX_SPEED * scale
+
+    MILD_CORNERS_SPEED = 0.45 * MAX_SPEED * scale
+
+    STRAIGHTS_SPEED = 0.8 * MAX_SPEED * scale
+
+    ULTRASTRAIGHTS_SPEED = MAX_SPEED * scale
+
+    #Steering params
+
+    STRAIGHTS_STEERING_ANGLE = np.pi / 18  # 10 degrees
+
+    MILD_CURVE_ANGLE = np.pi / 6  # 30 degrees
+
+    ULTRASTRAIGHTS_ANGLE = np.pi / 60  # 3 deg
+
+  
+
+    def __init__(self, mapping=False) -> None:
+
+        """
+
+        Initialize the FTG controller.
+
+
+        Parameters:
+
+        self.mapping = mapping
+
+        self.radians_per_elem = None # used when calculating the angles of the LiDAR data
+
+        self.range_offset = rospy.get_param('/state_machine/range_offset')
+
+        self.track_width = rospy.get_param('/state_machine/track_width', 2.0)
+
+        self.velocity = 0
+        self.scan = None    
+
+### **1. Vehicle Motion Limits**
+
+- Parameters such as **maximum speed** and **maximum steering angle** (if configured) are set during initialization. They act as global constraints that remain unchanged while the algorithm runs.
+    
+
+### **2. Runtime Variables (Not Initialized Here)**
+
+Values such as:
+
+- processed ranges,
+    
+- closest obstacle index,
+    
+- gap start/end indices,
+    
+- selected steering angle,
+    
+- commanded speed  
+    are **not** set at initialization. They are computed dynamically every time a ==**new scan arrives**== in `lidar_callback()`.
+### **3. Parameters:
+ mapping (bool): Flag indicating whether FTG is used for mapping or not.
+
+self.range_offset = rospy.get_param('/state_machine/range_offset')
+	get the offset from state_machine if it doesn't found the server it will return zero 
+
+self.track_width = rospy.get_param('/state_machine/track_width', 2.0)
+	   get the track_width from state_machine if it doesn't found the server it will return 2 (the default value you choose) it can help us in diagnose errors if function always return 2 we can indicate that track width is not in our server 
+##
 ## `_preprocess_lidar`
 
 ```
@@ -27,10 +109,12 @@ Preprocess the LiDAR scan array.
 
 This function sets the radians per element in the array of the LiDAR as to know which index corresponds to what angle. This value is stored in the variable `self.radians_per_elem`
 
-Then, an array is set from the 360 degrees, as we are not going to use the full array, only the parts that's infront of us, this range is set to `-135 to 135` degrees
+Then, an array is set from the 360 degrees, as we are not going to use the full array, only the parts that's Infront of us, this range is set to `-135 to 135` degrees
 
 The function returns an array of the LiDAR elements from -135 to 135 degrees in order, and clipped between 0 and the max lidar distance.
 
+==return proc_ranges[::-1]==
+This is essential because most LiDAR drivers publish right → left, and FTG operates left → right.
 ## `_get_steer_angle`
 
 ```
