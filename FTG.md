@@ -2,59 +2,44 @@ FTG Stands for Follow The Gap which works by receiving the LiDAR array for dista
 
 The file has initialization variables for the different speed option for the code to choose from depending on the situation.
 ##  Initialization     
+```
     DEBUG = rospy.get_param('/state_machine/debug')
-
+    
     #Lidar processing params
-
+    
     PREPROCESS_CONV_SIZE = 3
-
     SAFETY_RADIUS = rospy.get_param('/state_machine/safety_radius')
-
     MAX_LIDAR_DIST = rospy.get_param('/state_machine/max_lidar_dist')
-
+    
     # Speed params
 
     MAX_SPEED = rospy.get_param('/state_machine/max_speed', 1.5)
-
     scale = 0.6  # .575 is  max
-
     CORNERS_SPEED = 0.3 * MAX_SPEED * scale
-
     MILD_CORNERS_SPEED = 0.45 * MAX_SPEED * scale
-
     STRAIGHTS_SPEED = 0.8 * MAX_SPEED * scale
-
     ULTRASTRAIGHTS_SPEED = MAX_SPEED * scale
 
     #Steering params
 
     STRAIGHTS_STEERING_ANGLE = np.pi / 18  # 10 degrees
-
     MILD_CURVE_ANGLE = np.pi / 6  # 30 degrees
-
     ULTRASTRAIGHTS_ANGLE = np.pi / 60  # 3 deg
 
   
 
     def __init__(self, mapping=False) -> None:
 
-        """
-
         Initialize the FTG controller.
 
-
         Parameters:
-
         self.mapping = mapping
-
         self.radians_per_elem = None # used when calculating the angles of the LiDAR data
-
         self.range_offset = rospy.get_param('/state_machine/range_offset')
-
         self.track_width = rospy.get_param('/state_machine/track_width', 2.0)
-
         self.velocity = 0
         self.scan = None    
+```
 
 ### **1. Vehicle Motion Limits**
 
