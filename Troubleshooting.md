@@ -11,6 +11,8 @@ If you prefer staying in a terminal (PowerShell or Command Prompt), you can "unr
     
 4. To start over, just type `ubuntu` in PowerShell or launch it from your Start Menu. It will behave as if it’s being installed for the first time, asking you for a **new username and password**.
    
+   
+   GEMINI RESPONSE
 ```
 so to completely reset ubuntu, i did:
 1- `wsl --unregister Ubuntu-22.04`
