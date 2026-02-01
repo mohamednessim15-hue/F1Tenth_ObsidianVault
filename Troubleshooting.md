@@ -108,11 +108,13 @@ rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros
 ```
 MUST BE IN THE Cloned Repo Folder of `f1tenth_gym_ros`
 # Launching the Simulation (Inside the container)
-Using Tmux, have 2 panels and run:
+
+Using `tmux`, have 2 panels and run:
+	
 ```
 source /opt/ros/foxy/setup.bash && source install/local_setup.bash
 ```
-
+	
 ```
 ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
