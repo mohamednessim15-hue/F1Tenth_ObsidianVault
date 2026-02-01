@@ -15,8 +15,8 @@ If you prefer staying in a terminal (PowerShell or Command Prompt), you can "unr
    GEMINI RESPONSE
 ```
 so to completely reset ubuntu, i did:
-1- `wsl --unregister Ubuntu-22.04`
-2- opening ubuntu again from its windows app icon.
+1. `wsl --unregister Ubuntu-22.04`
+2. opening ubuntu again from its windows app icon.
 
 # Setting up Docker
 
@@ -52,3 +52,10 @@ sudo usermod -aG docker $USER
 2. Open **PowerShell** and run: `wsl --shutdown`
     
 3. **Re-open** your Ubuntu terminal.
+### Deleting all docker containers for a clean reset
+
+```
+docker system prune -a --volumes
+```
+This will delete all the volumes and containers on docker.
+
