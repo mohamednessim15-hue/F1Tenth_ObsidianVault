@@ -93,3 +93,9 @@ which rocker
 ```
 
 It should return `/home/[USER]/.local/bin/rocker`. If it does, you're all set to run your F1Tenth containers.
+
+# Installing F1Tenth_gym_ros
+
+https://github.com/f1tenth/f1tenth_gym_ros?tab=readme-ov-file
+
+using the rocker steps ***only***
