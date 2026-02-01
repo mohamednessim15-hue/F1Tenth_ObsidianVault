@@ -59,3 +59,37 @@ docker system prune -a --volumes
 ```
 This will delete all the volumes and containers on docker.
 
+# Rocker "Not on PATH" Warning
+
+Run these two commands in your terminal. The first adds the directory to your configuration file, and the second activates it immediately.
+
+1. **Add to your profile:**
+    
+    Bash
+    
+    ```
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+    ```
+    
+2. **Refresh the terminal:**
+    
+    Bash
+    
+    ```
+    source ~/.bashrc
+    ```
+    
+
+---
+
+### Verify it worked
+
+Now, try to see if Ubuntu can find `rocker` without you providing the full path:
+
+Bash
+
+```
+which rocker
+```
+
+It should return `/home/[USER]/.local/bin/rocker`. If it does, you're all set to run your F1Tenth containers.
