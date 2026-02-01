@@ -98,4 +98,4 @@ It should return `/home/[USER]/.local/bin/rocker`. If it does, you're all set to
 
 https://github.com/f1tenth/f1tenth_gym_ros?tab=readme-ov-file
 
-using the rocker steps ***only***
+using the rocker steps ***only*** , NOT native, only following  >> With an NVIDIA gpu
