@@ -165,7 +165,7 @@ You need to move that path into the existing `Path` variable rather than having 
     
 2. Find the variable named **Path** (not the one you created) and click **Edit**.
     
-3. Click **New** and paste the path from your screenshot: `C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin`
+3. Click **New** and paste the path from your screenshot: `C:\Users\YourName\AppData\Local\Programs\Microsoft VS Code\bin`
     
 4. **Important:** Make sure the path ends in `\bin`. The `bin` folder contains the actual `code` command script that WSL looks for.
     
