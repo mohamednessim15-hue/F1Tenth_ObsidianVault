@@ -129,7 +129,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 on the other panel.
 
-# Installing VSCode inside of the container
+# Installing VSCode in Linux Terminal
 
 You should not install VS Code _inside_ the Linux terminal. Instead, follow these steps:
 
