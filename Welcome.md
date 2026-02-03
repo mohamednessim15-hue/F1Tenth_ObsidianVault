@@ -4,8 +4,5 @@
 [ForzaETH Race Stack - Installation Tutorial](https://www.youtube.com/watch?v=A9Clg1n6rII)
 [Lab 4 - Follow the gap](https://github.com/ASUF1tenth/follow_the_gap/tree/main)
 [Online ForzaETH Stack](https://vscode.dev/github/ForzaETH/race_stack/tree/main)
-
-
-```
-rocker --nvidia --x11 --volume .:/sim_ws/src/follow_the_gap -- ftg_node
-```
+[RoboRacer](https://f1tenth.github.io/index.html)
+[Lab 4 Lecture](https://f1tenth.github.io/learn.html)

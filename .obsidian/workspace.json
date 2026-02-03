@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Troubleshooting.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Troubleshooting"
+              "title": "Welcome"
             }
           },
           {
@@ -210,8 +210,8 @@
   },
   "active": "6843ad95c741fe12",
   "lastOpenFiles": [
-    "Welcome.md",
     "Troubleshooting.md",
+    "Welcome.md",
     "Lab 4 -- FTG.md",
     "FTG.md",
     "conflict-files-obsidian-git.md",
