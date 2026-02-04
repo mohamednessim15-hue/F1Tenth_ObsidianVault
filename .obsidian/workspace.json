@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab 4 -- FTG.md",
+                "file": "Troubleshooting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab 4 -- FTG"
+              "title": "Troubleshooting"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,11 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6843ad95c741fe12",
+  "active": "0e99d3c3260d38f2",
   "lastOpenFiles": [
-    "Troubleshooting.md",
-    "Welcome.md",
     "Lab 4 -- FTG.md",
+    "Welcome.md",
+    "Troubleshooting.md",
     "FTG.md",
     "conflict-files-obsidian-git.md",
     "Trailing Controller.md",
