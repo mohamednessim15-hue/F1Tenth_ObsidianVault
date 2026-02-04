@@ -8,36 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b5a1d9e2d6d2d1ef",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
             "id": "de1093e4f12b424b",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Lab 4 -- FTG.md",
-                "bFile": "Lab 4 -- FTG.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aFile": "Troubleshooting.md",
+                "bFile": "Troubleshooting.md",
+                "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Lab 4 -- FTG"
+              "title": "Diff: Troubleshooting"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,19 +194,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12b3cd28e5f85226",
+  "active": "de1093e4f12b424b",
   "lastOpenFiles": [
+    "Troubleshooting.md",
     "Welcome.md",
+    "Trailing Controller.md",
+    "Pure Pursuit (pp.py).md",
     "Lab 4 -- FTG.md",
     "conflict-files-obsidian-git.md",
-    "Troubleshooting.md",
-    "Trailing Controller.md",
     "ForzaETH.md",
     "().md",
     "FTG.md",
     "calc_speed_command.md",
     "Controller Manager.md",
-    "Pure Pursuit (pp.py).md",
     "test.md",
     "Untitled.base",
     "Syncing.md",

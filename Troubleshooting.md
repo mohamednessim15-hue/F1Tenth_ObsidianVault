@@ -104,7 +104,7 @@ using the rocker steps ***only*** , NOT native, only following  >> With an NVIDI
 
 To open the container, run:
 ```
-rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros
+rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros 
 ```
 MUST BE IN THE Cloned Repo Folder of `f1tenth_gym_ros`
 # Launching the Simulation (Inside the container)
