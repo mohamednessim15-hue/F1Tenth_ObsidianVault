@@ -20,8 +20,23 @@
               "icon": "diff",
               "title": "Diff: Troubleshooting"
             }
+          },
+          {
+            "id": "458c3e6fd6d8ce6b",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,14 +209,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de1093e4f12b424b",
+  "active": "458c3e6fd6d8ce6b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Troubleshooting.md",
     "Welcome.md",
     "Trailing Controller.md",
     "Pure Pursuit (pp.py).md",
     "Lab 4 -- FTG.md",
-    "conflict-files-obsidian-git.md",
     "ForzaETH.md",
     "().md",
     "FTG.md",
