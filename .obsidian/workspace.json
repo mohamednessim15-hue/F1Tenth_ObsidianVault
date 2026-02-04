@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Troubleshooting.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Troubleshooting"
-            }
-          },
-          {
-            "id": "5427885dcdd0d5e5",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "title": "Welcome"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,16 +209,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5427885dcdd0d5e5",
+  "active": "0e99d3c3260d38f2",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Troubleshooting.md",
     "Lab 4 -- FTG.md",
+    "Pure Pursuit (pp.py).md",
     "Welcome.md",
+    "Troubleshooting.md",
+    "conflict-files-obsidian-git.md",
     "FTG.md",
     "Trailing Controller.md",
     "Controller Manager.md",
-    "Pure Pursuit (pp.py).md",
     "calc_speed_command.md",
     "test.md",
     "Untitled.base",
