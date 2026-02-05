@@ -34,8 +34,24 @@
               "icon": "lucide-file",
               "title": "Welcome"
             }
+          },
+          {
+            "id": "e45d5bf7c62e0e82",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Troubleshooting.md",
+                "bFile": "Troubleshooting.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Troubleshooting"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,13 +224,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6843ad95c741fe12",
+  "active": "e45d5bf7c62e0e82",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Welcome.md",
     "Troubleshooting.md",
     "Lab 4 -- FTG.md",
     "Pure Pursuit (pp.py).md",
-    "conflict-files-obsidian-git.md",
     "FTG.md",
     "Trailing Controller.md",
     "Controller Manager.md",
