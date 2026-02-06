@@ -9,3 +9,9 @@ ros2 topic pub --once /drive ackermann_msgs/msg/AckermannDriveStamped "{
 }"
 ```
 with the desired steering angle and speed.
+
+Available Maps:
+![[levine.png|400]]
+![[levine_blocked.png|400]]
+![[levine_obs.png|400]]
+![[Spielberg_map.png|400]]
