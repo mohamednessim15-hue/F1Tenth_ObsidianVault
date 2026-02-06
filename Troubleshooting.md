@@ -1,4 +1,4 @@
-# Resetting Ubuntu
+	# Resetting Ubuntu
 
 ```
 If you prefer staying in a terminal (PowerShell or Command Prompt), you can "unregister" the distribution. This is instantaneous.
