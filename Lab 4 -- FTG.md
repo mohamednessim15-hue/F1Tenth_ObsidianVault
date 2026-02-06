@@ -15,3 +15,4 @@ Available Maps:
 ![[levine_blocked.png|400]]
 ![[levine_obs.png|400]]
 ![[Spielberg_map.png|400]]
+![[Tests.png.png|500]]
