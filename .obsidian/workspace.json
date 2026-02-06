@@ -25,14 +25,14 @@
             "id": "458c3e6fd6d8ce6b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "icon": "lucide-file",
+              "title": "Welcome"
             }
           }
         ],
@@ -211,8 +211,8 @@
   },
   "active": "458c3e6fd6d8ce6b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Troubleshooting.md",
+    "conflict-files-obsidian-git.md",
     "Welcome.md",
     "Trailing Controller.md",
     "Pure Pursuit (pp.py).md",
