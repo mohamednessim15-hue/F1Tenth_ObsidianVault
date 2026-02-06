@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8bc7704726cacdd7",
+        "id": "7d8b190d0bf4a186",
         "type": "tabs",
         "children": [
           {
-            "id": "de1093e4f12b424b",
+            "id": "6843ad95c741fe12",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Assets/Tests.png.png"
+                "file": "Lab 4 -- FTG.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Tests.png"
+              "icon": "lucide-file",
+              "title": "Lab 4 -- FTG"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 300
   },
   "right": {
     "id": "92fdf96c234cdef2",
@@ -164,7 +166,7 @@
             }
           },
           {
-            "id": "12b3cd28e5f85226",
+            "id": "42706e81464838c7",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -194,24 +196,23 @@
   },
   "active": "1f5007a3dbf45a0d",
   "lastOpenFiles": [
-    "Lab 4 -- FTG.md",
     "Assets/Tests.png.png",
-    "Assets/levine_blocked.png",
-    "Assets/levine_blocked 1.png",
-    "conflict-files-obsidian-git.md",
+    "Assets/Tests.png",
+    "Assets/لإثسفس .png",
+    "Lab 4 -- FTG.md",
     "Assets/Spielberg_map.png",
     "Assets/levine_obs.png",
+    "Assets/levine_blocked.png",
     "Assets/levine.png",
     "Assets",
     "Welcome.md",
     "Troubleshooting.md",
     "Trailing Controller.md",
+    "conflict-files-obsidian-git.md",
     "Pure Pursuit (pp.py).md",
-    "ForzaETH.md",
-    "().md",
     "FTG.md",
-    "calc_speed_command.md",
     "Controller Manager.md",
+    "calc_speed_command.md",
     "test.md",
     "Untitled.base",
     "Syncing.md",
